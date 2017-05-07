@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tile>
+  <visual>
+    <binding template="TileSmall">
+      <text>Small</text>
+      <text hint-wrap="true" hint-style="captionSubtle">Text Field</text>
+      <image src ="Assets/color.jpg" placement ="background"></image>
+    </binding>
+
+    <binding template="TileMedium" displayName="TodoList" branding="name">
+      <text hint-style="subtitle">Middle</text>
+      <text hint-wrap="true" hint-style="captionSubtle">Text Field</text>
+      <image src ="Assets/color.jpg" placement ="background"></image>
+    </binding>
+
+    <binding template="TileWide" displayName="TodoList" branding="name">
+      <text hint-style="subtitle">Wide</text>
+      <text hint-wrap="true" hint-style="captionSubtle">Text Field</text>
+      <image src ="Assets/color.jpg" placement ="background"></image>
+    </binding>
+
+    <binding template="TileLarge" displayName="TodoList" branding="name">
+      <text hint-style="subtitle">Large</text>
+      <text hint-wrap="true" hint-style="captionSubtle">Text Field</text>
+      <image src ="Assets/color.jpg" placement ="background"></image>
+    </binding>
+  </visual>
+</tile>
+
+
